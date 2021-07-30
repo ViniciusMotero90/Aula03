@@ -8,11 +8,16 @@ public class OperadorXou {
 		Scanner leitor =  new Scanner(System.in);
 		Double umidade, temperatura;
 		System.out.println("Por favor, insira a umidade relativa do ar:");
-		umidade = leitor.nextDouble();
+		umidade = (double)leitor.nextDouble();
 		System.out.println("Por favor, insira a temperatura em graus celsius: ");
 		temperatura = leitor.nextDouble();
 		
 		//Aqui é preciso criar um if que verifique as duas condições para que o os ventiladores sejam ligados ou não
+		if(umidade > 0.7 ^ temperatura > 26) {
+			System.out.println("ligando os ventiladores");
+		}else {
+			System.out.println("Entrar em contato com agrônomo");
+		}
 		
 		leitor.close();
 		

@@ -22,7 +22,7 @@ public class EstruturaSwitch {
 		    	System.out.println("Você e lindo");
 		    	break;
 		    default:
-		    	System.out.println("Não existe esse número");
+		    	System.out.println("Opção inválida");
 		}
 		
 

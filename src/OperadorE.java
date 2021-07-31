@@ -15,7 +15,7 @@ public class OperadorE {
 		if(usuario.equalsIgnoreCase("adiministrador") && senha.equals("123")){
 			System.out.println("Usuário logado");
 		}else {
-			System.out.println("Usuário não logado");
+			System.out.println("Usuário ou senha inválidos");
 		}
 		
 		

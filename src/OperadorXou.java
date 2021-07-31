@@ -6,7 +6,7 @@ public class OperadorXou {
 		/*Em uma ONG há uma horta monitorada e automatizada por um arduino.
 		 * Escreva o código de um programa que receba a umidade relativa do ar e a temperatura atual. Caso a umidade seja maior que 70% ou caso o temperatura seja maior que 26°C, exibir a mensagem "ligando os ventiladores". Caso as duas condições sejam verdadeiras ou falsas, exibir a mensagem: "Entrar em contato com agrônomo".*/
 		Scanner leitor =  new Scanner(System.in);
-		Double umidade, temperatura;
+		double umidade, temperatura;
 		System.out.println("Por favor, insira a umidade relativa do ar:");
 		umidade = (double)leitor.nextDouble();
 		System.out.println("Por favor, insira a temperatura em graus celsius: ");
